@@ -2,7 +2,6 @@ from django.shortcuts import get_object_or_404
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
-import super_types
 
 from super_types.models import SuperType
 from .serializers import SuperSerializer
